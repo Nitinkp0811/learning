@@ -21,9 +21,11 @@ int main() {
     // First loop 
     // rem = 3 because remainder of 123 / 10 is 3.
     // Initially, rev = 0, so rev = rev * 10 + rem becomes 0 * 10 + 3 = 3.
+    // Second loop
     // Now, n = 12
     // rem = 2 because remainder of 12 /10 is 2.
     // Now, rev = 3, so rev = 3 * 10 + 2 = 32.
+    // Third loop
     // Now, n = 1
     // rem = 1 because n is not divisible by 10.
     // Now, rev = 32, so rev = 32 * 10 + 1 = 321.
@@ -39,4 +41,5 @@ int main() {
     }
     
     return 0;
+
 }
