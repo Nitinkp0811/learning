@@ -17,20 +17,20 @@ int main() {
         n /= 10; // n = n /10
     }
 
-    // If n = 123
+    // If n = 121
     // First loop 
-    // rem = 3 because remainder of 123 / 10 is 3.
-    // Initially, rev = 0, so rev = rev * 10 + rem becomes 0 * 10 + 3 = 3.
+    // rem = 1 because remainder of 123 / 10 is 3.
+    // Initially, rev = 0, so rev = rev * 10 + rem becomes 0 * 10 + 1 = 1.
     // Second loop
     // Now, n = 12
     // rem = 2 because remainder of 12 /10 is 2.
-    // Now, rev = 3, so rev = 3 * 10 + 2 = 32.
+    // Now, rev = 3, so rev = 1 * 10 + 2 = 12.
     // Third loop
     // Now, n = 1
     // rem = 1 because n is not divisible by 10.
-    // Now, rev = 32, so rev = 32 * 10 + 1 = 321.
+    // Now, rev = 12, so rev = 12 * 10 + 1 = 121.
     // Now, n becomes 0, so the loop stops.
-    // The number is 321.
+    // The number is 121.
 
     if (rev == original)
     {
@@ -43,3 +43,4 @@ int main() {
     return 0;
 
 }
+
